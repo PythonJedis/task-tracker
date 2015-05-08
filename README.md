@@ -3,9 +3,9 @@
 
 Requirements:
 
- - stuff
- - stuff
- - stuff
+ - track tasks/process's
+ - graph/visualize them
+ - group and rank/level them
 
 
 Additional:
