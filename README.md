@@ -1,6 +1,13 @@
 # task-tracker
 
 
+Modules list:
+
+- Qt?
+- Matplolib
+- stuff
+
+
 Requirements:
 
  - track tasks/process's
