@@ -14,7 +14,7 @@ PyWin32 doesn't have a proper 3.4 Installer, so you have to change a few things 
 
 - Download PyWin32 Here: http://sourceforge.net/projects/pywin32/files/pywin32/Build%20219/pywin32-219.win32-py3.4.exe/download?use_mirror=hivelocity
 - Then you have to copy the contents of C:\Python34\Lib\site-packages\pywin32_system32 (should be 2 DLLs) into the directory C:\Python34\Lib\site-packages\win32
-- Hopefully this will be fixed in the future :)
+- You also have to copy them into the working directory of whatever script you are writing (Like has been done in the repository)
 
 
 Requirements:
