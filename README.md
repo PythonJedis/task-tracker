@@ -1,14 +1,14 @@
 # task-tracker
+This Task tracker is a program conceived by <a href="https://github.com/SimonWoodburyForget">Simon Woodbury</a> and is becoming a platform for himself and Valeness to learn about win32 and gui programming with python
 
+### Modules list:
 
-Modules list:
-
-- Qt
+- PyGTK
 - Matplolib
 - PyWin32
 
 
-Installing PyWin32 with Python 3.4:
+### Installing PyWin32 with Python 3.4:
 
 PyWin32 doesn't have a proper 3.4 Installer, so you have to change a few things to get it to work.
 
@@ -17,15 +17,15 @@ PyWin32 doesn't have a proper 3.4 Installer, so you have to change a few things 
 - You also have to copy them into the working directory of whatever script you are writing (Like has been done in the repository)
 
 
-Requirements:
+### Requirements:
 
  - track tasks/process's
  - graph/visualize them
  - group and rank/level them
 
 
-Initial Issues:
+### Initial Issues:
 
 - Title Windows of Browsers and Windows Explorer change based on what website and directory (respectively) are open
-
--- Need to compile a common program list so we can parse the title strings to see what program is actually being used, in addition to what site is open. (Probably only need to do this for browsers. I am testing more programs.)
+ - Need to compile a common program list so we can parse the title strings to see what program is actually being used, in addition to what site is open. (Probably only need to do this for browsers. I am testing more programs.)
+- Additionally, if we can find the process name from the ThreadID, we could just use that
